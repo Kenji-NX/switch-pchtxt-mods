@@ -1,0 +1,17 @@
+@nsobid-66B2B6D53549A6364A43F69E282E3882F4D7028E
+# Persona 4 Golden [010062B01525C000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 21:9 Aspect Ratio
+
+@enabled
+0039D3A8 A8AA8A52 // mov w8, #0x5555
+0039D3AC A802A872 // movk w8, #0x4015, lsl #16
+0039E4C4 A8AA8A52 // mov w8, #0x5555
+0039E4C8 A802A872 // movk w8, #0x4015, lsl #16
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
