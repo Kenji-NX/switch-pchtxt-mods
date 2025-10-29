@@ -1,0 +1,26 @@
+@nsobid-326AC32516E23370564437435EB05D35
+# GRIME Definitive Edition [0100F300169B6000] v1.3.9
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K
+
+@enabled
+00C8D3E4 08E08152 // mov w8, #0xf00
+00C8D3F8 080E8152 // mov w8, #0x870
+00D1FBA8 09008052 // mov w9, #0x0
+00D1FBAC 030E8152 // mov w3, #0x870
+00D1FBBC 02E08152 // mov w2, #0xf00
+00D211A0 190E8152 // mov w25, #0x870
+00D211AC 01E08152 // mov w1, #0xf00
+00D213CC 01E08152 // mov w1, #0xf00
+00D213D4 020E8152 // mov w2, #0x870
+03B4ADF4 13E08152 // mov w19, #0xf00
+03B4ADFC 140E8152 // mov w20, #0x870
+03B4AE94 130E8152 // mov w19, #0x870
+03B4AE9C 00E08152 // mov w0, #0xf00
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

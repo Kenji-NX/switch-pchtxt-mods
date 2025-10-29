@@ -1,0 +1,17 @@
+@nsobid-326AC32516E23370564437435EB05D35
+# GRIME Definitive Edition [0100F300169B6000] v1.3.9
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1080p Docked, 720p Handheld
+
+@enabled
+03B4ADF4 13F08052 // mov w19, #0x780
+03B4ADFC 14878052 // mov w20, #0x438
+03B4AE94 135A8052 // mov w19, #0x2d0
+03B4AE9C 00A08052 // mov w0, #0x500
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

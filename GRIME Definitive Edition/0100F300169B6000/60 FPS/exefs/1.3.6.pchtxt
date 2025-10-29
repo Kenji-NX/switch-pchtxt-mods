@@ -1,0 +1,14 @@
+@nsobid-7A5685BD6B0480DA86BE6C30D7588187
+# GRIME Definitive Edition [0100F300169B6000] v1.3.6
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+00D2CFA8 21008052 // mov w1, #0x1
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
