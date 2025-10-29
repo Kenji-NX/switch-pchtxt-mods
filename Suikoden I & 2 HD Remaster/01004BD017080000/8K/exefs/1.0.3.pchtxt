@@ -1,0 +1,26 @@
+@nsobid-A481E5E6A88FDFB77E3BB158C3B89B7B
+# Suikoden I & II HD Remaster [01004BD017080000] v1.0.3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 8K
+
+@enabled
+00939AA0 08C08352 // mov w8, #0x1e00
+00939AA4 181C8252 // mov w24, #0x10e0
+009CACE8 08C08352 // mov w8, #0x1e00
+009CACEC 091C8252 // mov w9, #0x10e0
+009CAD00 08C08352 // mov w8, #0x1e00
+009CAD08 081C8252 // mov w8, #0x10e0
+009CAD90 EA031F2A // mov w10, wzr
+009CAD98 031C8252 // mov w3, #0x10e0
+009CADA0 02C08352 // mov w2, #0x1e00
+009E005C 171C8252 // mov w23, #0x10e0
+009E0068 01C08352 // mov w1, #0x1e00
+009E02D0 01C08352 // mov w1, #0x1e00
+009E02D4 021C8252 // mov w2, #0x10e0
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
