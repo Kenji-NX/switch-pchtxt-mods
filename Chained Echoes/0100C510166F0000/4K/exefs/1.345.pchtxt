@@ -1,0 +1,30 @@
+@nsobid-03864696D3CAFDCC8382A4EBA54A2BAF
+# Chained Echoes [0100C510166F0000] v1.345
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K
+
+@enabled
+00323C24 08E08152 // mov w8, #0xf00
+00323C34 080E8152 // mov w8, #0x870
+008D3B8C EA031F2A // mov w10, wzr
+008D3B90 030E8152 // mov w3, #0x870
+008D3B9C 02E08152 // mov w2, #0xf00
+008D4CCC 17E08152 // mov w23, #0xf00
+008D4CD0 160E8152 // mov w22, #0x870
+008D4D84 08E08152 // mov w8, #0xf00
+008D4D8C 080E8152 // mov w8, #0x870
+008EAD60 150E8152 // mov w21, #0x870
+008EAD68 01E08152 // mov w1, #0xf00
+008EAFDC 01E08152 // mov w1, #0xf00
+008EAFE0 020E8152 // mov w2, #0x870
+01643134 00E08152 // mov w0, #0xf00
+01643138 010E8152 // mov w1, #0x870
+0308F1D4 00E08152 // mov w0, #0xf00
+0308F1D8 010E8152 // mov w1, #0x870
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
