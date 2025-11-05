@@ -1,0 +1,21 @@
+@nsobid-2AD8CC7892EBF9FAB667F6D218366C24F073A89F
+# Trails in the Sky 1st Chapter [01002C9022770000] v1.0.4
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2430p
+
+@enabled
+0000685C 081C82D2 // mov x8, #0x10e0
+0000686C C82FC1F2 // movk x8, #0x97e, lsl #32
+0000665C 081C82D2 // mov x8, #0x10e0
+0000666C C82FC1F2 // movk x8, #0x97e, lsl #32
+0000691C C82F8152 // mov w8, #0x97e
+00006920 0A1C8252 // mov w10, #0x10e0
+003A4F6C 081C82D2 // mov x8, #0x10e0
+003A4F74 C82FC1F2 // movk x8, #0x97e, lsl #32
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
