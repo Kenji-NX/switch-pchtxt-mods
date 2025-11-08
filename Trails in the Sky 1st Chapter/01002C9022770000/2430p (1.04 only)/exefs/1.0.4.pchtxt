@@ -4,7 +4,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// 2430p
+// 2430p (1.04 only)
 
 @enabled
 0000685C 081C82D2 // mov x8, #0x10e0
