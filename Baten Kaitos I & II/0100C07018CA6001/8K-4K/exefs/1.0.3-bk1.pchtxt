@@ -1,0 +1,27 @@
+@nsobid-A16BEA3ABA632D53666021E0FB38993C
+# Baten Kaitos I [0100C07018CA6001] v1.0.3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 8K Docked, 4K Handheld
+
+@enabled
+0098EF44 08C08352 // mov w8, #0x1e00
+0098EF48 181C8252 // mov w24, #0x10e0
+00A16DDC 09008052 // mov w9, #0x0
+00A16DE0 031C8252 // mov w3, #0x10e0
+00A16DEC 02C08352 // mov w2, #0x1e00
+00A180B8 17E08152 // mov w23, #0xf00
+00A180BC 160E8152 // mov w22, #0x870
+00A18170 08C08352 // mov w8, #0x1e00
+00A18178 081C8252 // mov w8, #0x10e0
+00A2BC30 161C8252 // mov w22, #0x10e0
+00A2BC3C 01C08352 // mov w1, #0x1e00
+00A2BEB8 01C08352 // mov w1, #0x1e00
+00A2BEBC 021C8252 // mov w2, #0x10e0
+053B2D10 00102E1E // fmov s0, #1.00 // Disable Downscaling
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
