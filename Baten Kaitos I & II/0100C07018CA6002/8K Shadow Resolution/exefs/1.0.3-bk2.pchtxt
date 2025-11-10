@@ -1,0 +1,14 @@
+@nsobid-446DD0DC908E197CEFEA6B3548FC9FD6
+# Baten Kaitos II [0100C07018CA6002] v1.0.3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 8K Shadow Resolution
+
+@enabled
+04EB4318 0B008452 // mov w11, #0x2000
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
