@@ -7,7 +7,8 @@
 // 32:9 Aspect Ratio
 
 @enabled
-00F95574 0890211E // fmov s8, #3.500
+00CE3CC8 28C79152 // mov w8, #0x8e39
+00CE3CCC 680CA872 // movk w8, #0x4063, lsl #16
 @stop
 
 @KeatonTheBot

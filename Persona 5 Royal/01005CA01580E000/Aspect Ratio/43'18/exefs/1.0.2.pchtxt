@@ -4,11 +4,11 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// 21:9 Aspect Ratio
+// 43:18 Aspect Ratio
 
 @enabled
-00CE3CC8 A8AA8A52 // mov w8, #0x5555
-00CE3CCC A802A872 // movk w8, #0x4015, lsl #16
+00CE3CC8 C8719C52 // mov w8, #0xe38e
+00CE3CCC 0803A872 // movk w8, #0x4018, lsl #16
 @stop
 
 @KeatonTheBot
