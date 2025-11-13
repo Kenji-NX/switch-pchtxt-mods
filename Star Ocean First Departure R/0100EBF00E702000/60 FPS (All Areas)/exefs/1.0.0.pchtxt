@@ -1,0 +1,14 @@
+@nsobid-5EC132F471291B7E3E667E77487195B99B3FFFEF
+# Star Ocean First Departure R [0100EBF00E702000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS (All Areas)
+
+@enabled
+00006790 21008052 // mov w1, #0x1
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
