@@ -1,0 +1,15 @@
+@nsobid-2B18130BD191CAC5D407B54C3C8A2381C59CDD48
+# Trails in the Sky 1st Chapter [01002C9022770000] v1.0.6
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 16:10 Aspect Ratio
+
+@enabled
+0050FE8C A899D9F2 // movk x8, #0xcccd, lsl #32
+0050FE90 88F9E7F2 // movk x8, #0x3fcc, lsl #48
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
