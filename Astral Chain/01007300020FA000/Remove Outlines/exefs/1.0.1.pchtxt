@@ -1,0 +1,14 @@
+@nsobid-4B159F0F7A360669738390EE8657B4F0
+# Astral Chain [01007300020FA000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Remove Outlines
+
+@enabled
+0040624C E103271E // fmov s1, wzr
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

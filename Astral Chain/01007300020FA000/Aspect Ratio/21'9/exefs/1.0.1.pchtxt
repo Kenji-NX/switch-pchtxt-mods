@@ -1,0 +1,14 @@
+@nsobid-4B159F0F7A360669738390EE8657B4F0
+# Astral Chain [01007300020FA000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 21:9 Aspect Ratio
+
+@enabled
+009A30BC 0170201E // fmov s1, #2.375
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
