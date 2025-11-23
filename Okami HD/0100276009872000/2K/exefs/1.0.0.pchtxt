@@ -1,0 +1,18 @@
+@nsobid-A4FDDC7FD35B30CB763BF70C3213DCB7
+# Okami HD [0100276009872000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K
+
+@enabled
+0000969C 084081D2 // mov x8, #0xa00
+000096A0 08B4C0F2 // movk x8, #0x5a0, lsl #32
+0000A398 08408152 // mov w8, #0xa00
+0000A3B8 09B48052 // mov w9, #0x5a0
+0079ECF0 000A0000A0050000
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
