@@ -1,0 +1,14 @@
+@nsobid-693314C08EA157F32E3156A701493427
+# Another Crab's Treasure [0100A21017C42000] v1.1.100.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+009DE9E4 21008052 // mov w1, #0x1
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
