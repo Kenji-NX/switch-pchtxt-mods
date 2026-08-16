@@ -1,0 +1,26 @@
+@nsobid-A3FD3169A56C0DEB068AB8B4752218E1
+# Bo: Path of the Teal Lotus [0100E0601DC2A000] v1.1.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 8K
+
+@enabled
+00B65180 08C08352 // mov w8, #0x1e00
+00B65184 181C8252 // mov w24, #0x10e0
+00BF5998 17C08352 // mov w23, #0x1e00
+00BF599C 161C8252 // mov w22, #0x10e0
+00BF5A50 08C08352 // mov w8, #0x1e00
+00BF5A58 081C8252 // mov w8, #0x10e0
+00BF5AE0 EA031F2A // mov w10, wzr
+00BF5AE8 031C8252 // mov w3, #0x10e0
+00BF5AF0 02C08352 // mov w2, #0x1e00
+00C0ADAC 171C8252 // mov w23, #0x10e0
+00C0ADB8 01C08352 // mov w1, #0x1e00
+00C0B020 01C08352 // mov w1, #0x1e00
+00C0B024 021C8252 // mov w2, #0x10e0
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
