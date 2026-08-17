@@ -1,0 +1,24 @@
+@nsobid-991ECCF3339153E469F15936FAC59C52
+# Donkey Kong Country Returns HD [01009D901BC56000] v1.1.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K
+
+@enabled
+011850A4 08E08152 // mov w8, #0xf00
+011850AC 080E8152 // mov w8, #0x870
+0119D63C E9031F2A // mov w9, wzr
+0119D640 030E8152 // mov w3, #0x870
+0119D650 02E08152 // mov w2, #0xf00
+011C2B74 020E8152 // mov w2, #0x870
+011C2B80 01E08152 // mov w8, #0xf00
+011C2DAC 020E8152 // mov w2, #0x870
+011C2DB8 01E08152 // mov w1, #0xf00
+025EBAF0 030E8152 // mov w3, #0x870
+025EBAF8 01E08152 // mov w1, #0xf00
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
