@@ -1,0 +1,16 @@
+@nsobid-9F221E1AFA65BA5443E955158AB97DA871E5E41F
+# The Legend of Zelda: Echoes of Wisdom [01008CF01BAAC000] v1.1.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Unlimited Swordfighter
+
+@enabled
+0214C3C0 0090261E // Energy Meter Always Full
+020E2B10 0090261E // ""
+0266F490 08008052 // Hide Energy Meter
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
