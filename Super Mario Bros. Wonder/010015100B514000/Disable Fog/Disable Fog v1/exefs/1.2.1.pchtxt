@@ -1,0 +1,14 @@
+@nsobid-FF773E90972D544EB79406EAA65396D53C43EFB9
+# Super Mario Bros. Wonder [010015100B514000] v1.2.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable Fog
+
+@enabled
+000E7FBC EC010014
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
