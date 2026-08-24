@@ -18,8 +18,6 @@
 011D57E4 01C08352 // mov w1, #0x1e00
 011D5A14 021C8252 // mov w2, #0x10e0
 011D5A20 01C08352 // mov w1, #0x1e00
-02253F4C 021C8252 // mov w2, #0x10e0
-02253F50 01C08352 // mov w1, #0x1e00
 @stop
 
 @KeatonTheBot
