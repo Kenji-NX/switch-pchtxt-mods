@@ -1,0 +1,15 @@
+@nsobid-5EA394E096752EE3D04DEBFCEA6BF9114277D0B4
+# Trails in the Sky 2nd Chapter [01007A2027548000] v1.0.3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1080p
+
+@enabled
+00009544 09F080D2 // mov x9, #0x780
+00009554 0987C0F2 // movk x9, #0x438, lsl #32
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
